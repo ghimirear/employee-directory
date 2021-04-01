@@ -30,12 +30,12 @@ If you have any question regarding this project you can email me on
 [app]()
 # Demo images
 ## All results 
-[all](./images/beforesort.PNG)
+![all](./images/beforesort.PNG)
 
 ## Arranged results
-[arranged](./images/aftersort.PNG)
+![arranged](./images/aftersort.PNG)
 
 ## Searched results 
-[search](./images/search.PNG)
+![search](./images/search.PNG)
 
 
