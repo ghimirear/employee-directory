@@ -1,0 +1,17 @@
+.card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    width: 330px;
+    height: 430px;
+    background-color: rgb(24, 49, 131);
+    color: white;
+    box-shadow: 2px 2px 4px burlywood;
+}
+h5:hover{
+    font-size: 1.2rem;
+    text-shadow: 0 0 2px black;
+}
+

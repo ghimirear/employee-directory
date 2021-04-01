@@ -1,0 +1,13 @@
+nav{
+    height: 80px;
+    background-color: rgb(49, 38, 38);
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+h1{
+   margin-left: 40%;
+}
