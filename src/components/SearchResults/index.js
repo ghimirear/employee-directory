@@ -5,6 +5,7 @@ function SearchResults(props){
         <div className="card-container">
         {       // filtering the array to show employee according to the input value which is passed in props(props.state.search)
             props.results.filter(result => result.name.first.toLowerCase().includes(props.state.search)||result.name.last.toLowerCase().includes(props.state.search) || result.phone.includes(props.state.search) )
+            // to lowecase is to make comparable names ans input valueor state.search. comparing apple and apple.
             .map(item =>(
                 <div className="card mt-2 m-2" key={item.login.md5}>
                     <div className="card-header">

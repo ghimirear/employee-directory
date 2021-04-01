@@ -40,6 +40,7 @@ class EmployeeContainer extends Component{
       // sortResults is to sort the result in alphabetical order on the basis of first name of the user.
       sortResults = ()=>{
         const newList = this.state.results.sort(function (a,b){
+          // comparing and arrenging results
           if (a.name.first.toLowerCase()<b.name.first.toLowerCase()) return -1;
           if (a.name.first.toLowerCase()>b.name.first.toLowerCase()) return 1;
           return 0; 

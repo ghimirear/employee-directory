@@ -18,7 +18,6 @@ function SearchForm(props) {
             id="search"
             />
         </div>
-       
         </form>
         <div className="buttons-div">
         <button onClick={props.sortResults} className="btn btn-primary ml-auto sort">
