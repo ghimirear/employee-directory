@@ -7,9 +7,9 @@ We are not using any databases for this project so we are simulating the databas
 # Technologies used
 - react
 - axios 
-- react-dom
-- react-scripts
-- web-vitals
+- html
+- css
+- bootstrap
 
 # How to start 
 On command line type **npx create-react-app** app-name
@@ -27,7 +27,7 @@ If you find any issues with this app please create an issue here:
 If you have any question regarding this project you can email me on 
 - ghimirearjun15@gmail.com
 # Deployed app 
-[app]()
+[app](https://ghimirear.github.io/employee-directory/)
 # Demo images
 ## All results 
 ![all](./images/beforesort.PNG)
