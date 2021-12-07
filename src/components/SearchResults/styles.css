@@ -4,9 +4,9 @@
     flex-wrap: wrap;
 }
 .card{
-    width: 330px;
+    width: 339px;
     height: 430px;
-    background-color: rgb(24, 49, 131);
+    background-image: radial-gradient(100% 100% at 100% 0, #26c9f6 0  , #2a3dce 100%);
     color: white;
     box-shadow: 2px 2px 4px burlywood;
 }

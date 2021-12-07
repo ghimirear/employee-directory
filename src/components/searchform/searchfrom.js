@@ -4,10 +4,10 @@ import './styles.css'
 function SearchForm(props) {
   return (
     <div className= "row">
-    <div className="form-col col col-offset-3">
+    <div className="form-col col container">
         <form>
         <div className="form-group">
-            <label htmlFor="search"><h3> Search:</h3></label>
+          
             <input
             onChange={props.handleInputChange}
             value={props.value}
@@ -16,12 +16,14 @@ function SearchForm(props) {
             className="form-control"
             placeholder="Search For a employee"
             id="search"
-            />
+             style={{width:"220px", marginLeft:"auto", marginRight:"auto"}}/>
         </div>
         </form>
         <div className="buttons-div">
-        <button onClick={props.sortResults} className="btn btn-primary ml-auto sort">
-        SORT
+        <button onClick={props.sortResults} className="btn btn-primary ml-auto sort" 
+
+      >
+        Sort By Name
         </button>
         </div>
         </div>

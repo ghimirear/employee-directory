@@ -4,6 +4,7 @@ import SearchForm from './searchform/searchfrom';
 import axios from "axios";
 import SearchResults from "../components/SearchResults";
 import CardContainer from "../components/CardContainer/CardContainer";
+import Footer from "./footer";
 const BASEURL = "https://randomuser.me/api/?results=30";
 
 
@@ -56,7 +57,8 @@ class EmployeeContainer extends Component{
 
       render(){
           return( 
-              <Container>
+            <>
+              <Container >
                   <SearchForm 
                    value={this.state.search}
                   handleInputChange={this.handleInputChange}
@@ -68,6 +70,8 @@ class EmployeeContainer extends Component{
                    </CardContainer>
                    
                   </Container>
+                  <Footer />
+                  </>
           );
       }
 }

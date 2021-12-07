@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 function SearchResults(props){
     return(
-        <div className="card-container">
+        <div className="card-container container">
         {       // filtering the array to show employee according to the input value which is passed in props(props.state.search)
             props.results.filter(result => result.name.first.toLowerCase().includes(props.state.search)||result.name.last.toLowerCase().includes(props.state.search) || result.phone.includes(props.state.search) )
             // to lowecase is to make comparable names ans input valueor state.search. comparing apple and apple.
